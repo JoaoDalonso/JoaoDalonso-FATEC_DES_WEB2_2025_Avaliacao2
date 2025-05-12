@@ -58,11 +58,7 @@ CREATE TABLE produtos (
 
 Coloque todos os arquivos no diretório do servidor web (ex: htdocs/PROVA_ORLANDO).
 
-![image](https://github.com/user-attachments/assets/206b46db-ccf3-4b2f-b76e-4b3628b85e8a)
-![image](https://github.com/user-attachments/assets/122be105-b2ad-4eae-8862-77ff1abe05c9)
-![image](https://github.com/user-attachments/assets/e70f8030-8605-4a8c-be1a-f89a664e955f)
-![image](https://github.com/user-attachments/assets/931575ac-4dd6-4c5e-a56b-aa8ee2110437)
-![image](https://github.com/user-attachments/assets/abe2dcfa-8277-451b-8014-fe7ed49b1327)
+![image](https://github.com/user-attachments/assets/206b46db-ccf3-4b2f-b76e-4b3628b85e8a)![image](https://github.com/user-attachments/assets/122be105-b2ad-4eae-8862-77ff1abe05c9)![image](https://github.com/user-attachments/assets/e70f8030-8605-4a8c-be1a-f89a664e955f)![image](https://github.com/user-attachments/assets/931575ac-4dd6-4c5e-a56b-aa8ee2110437)![image](https://github.com/user-attachments/assets/abe2dcfa-8277-451b-8014-fe7ed49b1327)
 
 CADA QUERY ->
 --
