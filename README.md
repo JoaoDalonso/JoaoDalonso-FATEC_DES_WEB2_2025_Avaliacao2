@@ -3,8 +3,9 @@
 --
 
 ![image](https://github.com/user-attachments/assets/35d91f42-0648-4305-938e-e8ae72d39eed)  
-DIAGRAMA DE CASO DE USO DA PROVA - >
 
+DIAGRAMA DE CASO DE USO DA PROVA - >
+--
 
 
 
@@ -84,10 +85,10 @@ CADA QUERY ->
         $stmt->execute([':id'=>$id]);      // A lógica segue a mesma a diferença é o criterio de seleção, que nesse caso é o id, onde é criada uma variável para o ID onde o item selecionado pelo usuário é excluido com base no id aonde o valor do "placeholder"(aquele que é exibido ao usuário para exemplificar algo) é dado ao valor de id da variável. //
     }
 
-(LISTAR ITENS )
+(LISTAR ITENS)
 --
 
-- > public function getAllProducts(){
+-> public function getAllProducts(){
         $stmt=$this->pdo->query("SELECT * FROM produtos_artesanais ORDER BY id");
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
     }  //É feito um select simples aonde é feito um comando sql completo de procura na query do codigo, usando fetchall para chamar todas as linhas e usando PDO::FETCH_ASSOC para retornar cada linha como um array para facilitar na hora de ser printado para o usuário.//
