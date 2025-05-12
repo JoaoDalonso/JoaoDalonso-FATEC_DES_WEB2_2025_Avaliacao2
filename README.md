@@ -1,7 +1,8 @@
-![image](https://github.com/user-attachments/assets/35d91f42-0648-4305-938e-e8ae72d39eed)     
+   
 # JoaoDalonso-FATEC_DES_WEB2_2025_Avaliacao2
-DIAGRAMA DE CASO DE USO DA PROVA - > 
-![image](https://github.com/user-attachments/assets/d3725470-1b31-40ee-aecb-f16d999c9f55)
+![image](https://github.com/user-attachments/assets/35d91f42-0648-4305-938e-e8ae72d39eed)  
+DIAGRAMA DE CASO DE USO DA PROVA - > ![image](https://github.com/user-attachments/assets/d3725470-1b31-40ee-aecb-f16d999c9f55)
+
 
 
 1- CLASSE CADASTRO(CLASS_BANCO).   
