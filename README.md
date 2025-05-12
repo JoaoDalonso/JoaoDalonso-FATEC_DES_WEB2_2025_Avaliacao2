@@ -49,7 +49,7 @@ private $db   = 'nome_do_banco'; <- artesanato_db
 
 private $user = 'usuario'; <- root
 
-private $pass = 'senha'; <- ***********
+private $pass = 'senha'; <- <-root (alterar no codigo do projeto "credenciais.php" e tirar a senha = " "
 
 
 
