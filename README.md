@@ -1,6 +1,7 @@
    
 # JoaoDalonso-FATEC_DES_WEB2_2025_Avaliacao2
 --
+
 ![image](https://github.com/user-attachments/assets/35d91f42-0648-4305-938e-e8ae72d39eed)  
 DIAGRAMA DE CASO DE USO DA PROVA - >
 
@@ -64,19 +65,29 @@ Coloque todos os arquivos no diretório do servidor web (ex: htdocs/PROVA_ORLAND
 
 CADA QUERY ->
 --
-(INSERIR DADOS) -> public function addProduct($nome,$preco,$descricao,$categoria){
+
+(INSERIR DADOS)
+--
+
+-> public function addProduct($nome,$preco,$descricao,$categoria){
         $sql="INSERT INTO produtos_artesanais(nome_produto,preco,descricao,categoria)VALUES(:nome,:preco,:descricao,:categoria)";
         $stmt=$this->pdo->prepare($sql);
         $stmt->execute([':nome'=>$nome,':preco'=>$preco,':descricao'=>$descricao,':categoria'=>$categoria]);
     } //Função addProduct (função que irei chamar para criar o php referente ao cadastro), $sql="INSERT INTO" usando comando sql no PHP, chamando a tabela e colocando em ordem a ser inserida na tabela os itens, e a penultima linha "$stmt = $this->pdo->prepare($sql);" declara this ->PDO, usando o método prepare() para evitar mais de uma query igual ao mesmo tempo.//
 
-(REMOVER DADOS) ->  public function removeProduct($id){
+(REMOVER DADOS)
+--
+
+->  public function removeProduct($id){
         $sql="DELETE FROM produtos_artesanais WHERE id=:id";
         $stmt=$this->pdo->prepare($sql);
         $stmt->execute([':id'=>$id]);      // A lógica segue a mesma a diferença é o criterio de seleção, que nesse caso é o id, onde é criada uma variável para o ID onde o item selecionado pelo usuário é excluido com base no id aonde o valor do "placeholder"(aquele que é exibido ao usuário para exemplificar algo) é dado ao valor de id da variável. //
     }
 
-(LISTAR ITENS ) - > public function getAllProducts(){
+(LISTAR ITENS )
+--
+
+- > public function getAllProducts(){
         $stmt=$this->pdo->query("SELECT * FROM produtos_artesanais ORDER BY id");
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
     }  //É feito um select simples aonde é feito um comando sql completo de procura na query do codigo, usando fetchall para chamar todas as linhas e usando PDO::FETCH_ASSOC para retornar cada linha como um array para facilitar na hora de ser printado para o usuário.//
@@ -84,7 +95,7 @@ CADA QUERY ->
 
 
 CONSIDERAÇÕES FINAIS, foi um projeto muito divertido de ser feito, aonde coloquei em prática diversas coisas aprendidas nas aulas, encapsulamentos(Aprendido em PHP/JAVA), orientação a objeto(JAVA), chamar as funções(1*SEM lógica), construct e destruct(JAVA/PHP) e inclusive exibir produtos e fazer esse foreach aprendi com o Nilton(BD).
-
+--
 
 
 
