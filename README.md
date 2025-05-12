@@ -19,10 +19,14 @@ DIAGRAMA DE CASO DE USO DA PROVA - >
 
 
 
-1- CLASSE CADASTRO(CLASS_BANCO).   
+1- CLASSE CADASTRO(CLASS_BANCO).  
+
 2- CADASTRAR PRODUTOS.
-3- REMOVER PRODUTO.                                                                                                                                    
+
+3- REMOVER PRODUTO.
+
 4- LISTAR PRODUTOS.
+
 5- READ ME.                                                                                                                                                     
 
                                                                                                                                                        
