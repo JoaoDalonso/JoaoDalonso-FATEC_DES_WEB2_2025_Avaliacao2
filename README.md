@@ -101,7 +101,6 @@ CADA QUERY ->
 
 
 CONSIDERAÇÕES FINAIS, foi um projeto muito divertido de ser feito, aonde coloquei em prática diversas coisas aprendidas nas aulas, encapsulamentos(Aprendido em PHP/JAVA), orientação a objeto(JAVA), chamar as funções(1*SEM lógica), construct e destruct(JAVA/PHP) e inclusive exibir produtos e fazer esse foreach aprendi com o Nilton(BD).
---
 
 
 
