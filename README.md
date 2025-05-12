@@ -42,10 +42,15 @@ Acesse a pasta do projeto:
 cd PROVA_ORLANDO
 
 Configure o banco de dados em class_banco.php:
+
 private $host = 'localhost';
+
 private $db   = 'nome_do_banco'; <- artesanato_db
+
 private $user = 'usuario'; <- root
+
 private $pass = 'senha'; <- ***********
+
 
 
 Crie a tabela produtos (exemplo MySQL):
