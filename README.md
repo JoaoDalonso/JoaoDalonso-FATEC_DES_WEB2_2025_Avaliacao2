@@ -1,5 +1,6 @@
    
 # JoaoDalonso-FATEC_DES_WEB2_2025_Avaliacao2
+--
 ![image](https://github.com/user-attachments/assets/35d91f42-0648-4305-938e-e8ae72d39eed)  
 DIAGRAMA DE CASO DE USO DA PROVA - >
 
@@ -25,6 +26,7 @@ DIAGRAMA DE CASO DE USO DA PROVA - >
                                                                                                                                                        
                                                                                                       
 INSTALAÇÃO:
+--
 
 Clone o repositório:
 git clone "https://github.com/JoaoDalonso/JoaoDalonso-FATEC_DES_WEB2_2025_Avaliacao2"
@@ -41,6 +43,7 @@ private $pass = 'senha'; <- ***********
 
 
 Crie a tabela produtos (exemplo MySQL):
+--
 
 CREATE TABLE produtos (
   id INT AUTO_INCREMENT PRIMARY KEY,                                                                                                                       
@@ -59,7 +62,9 @@ Coloque todos os arquivos no diretório do servidor web (ex: htdocs/PROVA_ORLAND
 ![image](https://github.com/user-attachments/assets/931575ac-4dd6-4c5e-a56b-aa8ee2110437)
 ![image](https://github.com/user-attachments/assets/abe2dcfa-8277-451b-8014-fe7ed49b1327)
 
-CADA QUERY -> (INSERIR DADOS) -> public function addProduct($nome,$preco,$descricao,$categoria){
+CADA QUERY ->
+--
+(INSERIR DADOS) -> public function addProduct($nome,$preco,$descricao,$categoria){
         $sql="INSERT INTO produtos_artesanais(nome_produto,preco,descricao,categoria)VALUES(:nome,:preco,:descricao,:categoria)";
         $stmt=$this->pdo->prepare($sql);
         $stmt->execute([':nome'=>$nome,':preco'=>$preco,':descricao'=>$descricao,':categoria'=>$categoria]);
